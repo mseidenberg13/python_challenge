@@ -58,7 +58,7 @@ for files in data:
     filewriter.write(f"Total Votes:  {votes}\n")
     filewriter.write("-----------------------------\n")
     for count in range(len(candidates)):
-        filewriter.write(f"{candidates[count]}: {percentages[count]}% ({vote_count[count]})\n")
+    filewriter.write(f"{candidates[count]}: {percentages[count]}% ({vote_count[count]})\n")
     filewriter.write("-----------------------------\n")
     filewriter.write(f"Winner:  {winner}\n")
     filewriter.write("-----------------------------\n")
